@@ -1,0 +1,28 @@
+
+
+
+
+<nav role="navigation" class="navbar navbar-default">
+	<div class="">
+		<a href="http://www.in28minutes.com" class="navbar-brand">T-REX</a>
+	</div>
+	<div class="navbar-collapse">
+		<ul class="nav navbar-nav">
+
+			<li class="active"><a href="/">Home</a></li>
+
+			<li><a href="/clan/pending-requests">Approve Registrations</a></li>
+
+			<li><a href="/clan/war/teamname/assign">Assign Targets</a></li>
+
+			<li><a href="/clan/war/teamname">Upcoming War</a></li>
+			
+			<li><a href="/clan/available-players">Available Players</a></li>
+
+		</ul>
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="/logout">Logout</a></li>
+		</ul>
+
+	</div>
+</nav>
