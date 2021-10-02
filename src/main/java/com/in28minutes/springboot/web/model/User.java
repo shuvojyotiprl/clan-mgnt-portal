@@ -34,6 +34,8 @@ public class User {
 	
 	private Boolean approved;
 	
+	
+	
 	@OneToMany
 	private List<Enemy> targetEnemy;
 	

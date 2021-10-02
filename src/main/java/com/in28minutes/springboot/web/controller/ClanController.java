@@ -1,5 +1,6 @@
 package com.in28minutes.springboot.web.controller;
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -100,8 +101,8 @@ public class ClanController {
 	
 	@RequestMapping(value = "/clan/available-players", method = RequestMethod.GET)
 	public String avaiablePlayers(ModelMap model) {
-		
-		List<User> users = userRepo.findAll().stream().filter(u->u.getApproved()).collect(Collectors.toList());
+		List<User> users = userRepo.findAll().stream()
+				.filter(u->u.getApproved()).collect(Collectors.toList());
 		model.put("users", users);
 		
 		
